@@ -5,7 +5,7 @@
 ---
 
 ### Why Node?
-
+//backend
 ---
 
 Server-side rendering VS. Client-side rendering [🔗](https://www.codeconquest.com/website/client-side-vs-server-side/)
@@ -62,6 +62,8 @@ _Clearly it's best to use things that's already built._
 ---
 
 Enter [NPM](https://www.npmjs.com/https://www.npmjs.com/)
+
+//yarn is the same thing
 
 npm is a tool that lets you download code written by others.
 

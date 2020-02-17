@@ -14,7 +14,16 @@
             <div class='box answer'>
                 <h3>Answer</h3>
                 <!-- render answer here -->
-                
+                <ul>
+                    <% let keys = Object.keys(homer) %>
+                    <% keys.forEach(function(info) { %>
+                        <li><%= `${info} : ${homer[info]}` %>  </li>
+                    <% }); %> 
+                </ul>
+
+                <div class="link-box">
+                    <a href="/question2.ejs">Previous</a><span> / </span> <a href="/question4.ejs" >Next</a>
+                </div>
             </div>
         </div>
     </div>

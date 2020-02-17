@@ -14,7 +14,16 @@
             <div class='box answer'>
                 <h3>Answer</h3>
                 <!-- render answer here -->
+                <h3>Top 5 girls names in the England and Wales</h3>
+                <ol style="list-style-type:decimal;">
+                    <% popularGirlNames.forEach(function(name) { %>
+                        <li><%= `${name}` %>  </li>
+                    <% }); %>
+                </ol>
 
+                <div class="link-box">
+                    <a href="/question4.ejs">Previous</a><span> / </span> <a href="/question6.ejs" >Next</a>
+                </div>
             </div>
         </div>
     </div>
